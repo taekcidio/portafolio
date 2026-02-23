@@ -1,0 +1,664 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laura Valeria Espejo Mantilla | Portafolio</title>
+    <meta
+      name="description"
+      content="Portafolio de Laura Valeria Espejo Mantilla, estudiante de Ingeniería de Software con enfoque Full-Stack."
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+    <header class="site-header">
+      <div class="nav-container">
+        <a href="index.html" class="logo"
+          >Portafolio<span class="highlight">.</span></a
+        >
+
+        <button
+          class="burger-btn"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="nav-menu" aria-label="Navegación principal">
+          <ul>
+            <li>
+              <a href="index.html#inicio" class="nav-link active">Inicio</a>
+            </li>
+            <li><a href="horario.html" class="nav-link">Horario</a></li>
+            <li><a href="organigrama.html" class="nav-link">Organigrama</a></li>
+            <li>
+              <a href="index.html#proyectos" class="nav-link">Proyectos y logros</a>
+            </li>
+            <li><a href="index.html#contacto" class="nav-link">Contacto</a></li>
+            <li style="display: flex; gap: 1rem; margin-left: 0.5rem; align-items: center;">
+              <a href="https://www.linkedin.com/in/laura-valeria-espejo-mantilla-236597355" target="_blank" rel="noopener noreferrer" class="nav-link nav-icon" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              </a>
+              <a href="https://github.com/taekcidio" target="_blank" rel="noopener noreferrer" class="nav-link nav-icon" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <!-- Hero Section -->
+      <section id="inicio" class="hero">
+        <div class="container hero-container">
+          <div class="hero-content">
+            <span class="label-small">¡Hola!</span>
+            <h1>
+                Soy
+              <span class="highlight">Laura Valeria <br />Espejo Mantilla</span>
+            </h1>
+            <p class="subcopy">
+              Estudiante de Ingeniería de Software. Conocimientos en Java, JavaScript, HTML5, CSS3, Python y SQL. He trabajado en ejercicios y prácticas de APIs REST (CRUD), incluyendo consumo y pruebas de servicios. Manejo Git/GitHub, VS Code, Postman, Figma y Firebase. Actualmente fortaleciendo React y orientada a IA aplicada a agentes.
+            </p>
+            <div class="hero-cta">
+              <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
+              <a href="#contacto" class="btn btn-secondary">Contáctame</a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-avatar-wrapper">
+              <img
+                src="assets/images/avatar.png.png"
+                alt="Avatar 3D de Laura Valeria"
+                class="avatar-img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sobre mí Section -->
+      <section id="sobre-mi" class="about">
+        <div class="container">
+          <h2 class="section-title">Sobre <span>mí</span></h2>
+          <div class="about-container card">
+            <div class="about-img-wrapper">
+              <img
+                src="assets/images/profile.jpg.jpeg"
+                alt="Foto real de Laura Valeria"
+                class="profile-img"
+              />
+            </div>
+            <div class="about-text">
+              <p>
+                Soy estudiante de Ingeniería de Software (6° semestre) en la Universidad Manuela Beltrán. Me enfoco en diseñar apps y webs modernas y responsivas. Estoy fortaleciendo APIs REST (CRUD) con Spring Boot y FastAPI, contenedorización y pruebas con Postman, y explorando IA aplicada con interés en agentes.
+              </p>
+            <h3>Herramientas que utilizo:</h3>
+            <ul class="tools-list">
+              <li class="tool-badge badge-git">Git/GitHub</li>
+              <li class="tool-badge badge-vscode">VS Code</li>
+              <li class="tool-badge badge-postman">Postman</li>
+              <li class="tool-badge badge-figma">Figma</li>
+              <li class="tool-badge badge-firebase">Firebase</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills">
+        <div class="container">
+          <h2 class="section-title"><span>Mis</span> Competencias</h2>
+
+          <div class="skills-grid">
+            <div class="hard-skills card card-glow">
+              <h3>Habilidades Técnicas</h3>
+              <div class="skill-bars">
+                <div class="skill">
+                  <span class="skill-name">HTML5 / CSS3</span>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-level"
+                      style="width: 90%; background: var(--accent-cyan)"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <span class="skill-name">JavaScript / React (en curso)</span>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-level"
+                      style="width: 75%; background: var(--accent-blue)"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <span class="skill-name">Java / Python</span>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-level"
+                      style="width: 80%; background: var(--accent-purple)"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <span class="skill-name">SQL</span>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-level"
+                      style="width: 70%; background: var(--accent-orange)"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <span class="skill-name">Git / GitHub</span>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-level"
+                      style="width: 85%; background: var(--accent-cyan)"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="soft-skills">
+              <h3>Habilidades Blandas</h3>
+              <div class="soft-cards">
+                <div class="card soft-card">
+                  <h4>Comunicación</h4>
+                </div>
+                <div class="card soft-card">
+                  <h4>Trabajo en equipo</h4>
+                </div>
+                <div class="card soft-card">
+                  <h4>Organización</h4>
+                </div>
+                <div class="card soft-card">
+                  <h4>Aprendizaje continuo</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Proyectos Section -->
+      <section id="proyectos" class="projects">
+        <div class="container">
+          <div style="text-align: center; margin-bottom: var(--sp-lg);">
+              <h2 class="section-title" style="margin-bottom: var(--sp-xs);">Mis <span>Proyectos</span></h2>
+              <p style="color: var(--text-muted); font-size: 1.1rem;">Una colección de proyectos en los que he trabajado.</p>
+          </div>
+          
+          <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="card project-card">
+              <div class="project-img-wrapper">
+                  <!-- Placeholder for project image -->
+                  <div class="project-img-placeholder" style="background: linear-gradient(135deg, #1a202c, #2d3748);">
+                      <span style="color: rgba(255,255,255,0.2); font-weight: bold; font-size: 1.5rem;">BlueMind</span>
+                  </div>
+              </div>
+              <div class="project-content">
+                  <h3>BlueMind (Grupo)</h3>
+                  <p>
+                    Plataforma interactiva para educación y concienciación sobre
+                    conservación de océanos y acceso al agua limpia. Incluye
+                    recursos, divulgación, mapa de contaminación global y sistema de
+                    comentarios.
+                  </p>
+                  <div class="project-links">
+                      <a href="https://github.com/hannakathe/BlueMind.git" target="_blank" rel="noopener noreferrer" class="project-icon-link" aria-label="Ver código en GitHub">
+                          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                      </a>
+                  </div>
+              </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="card project-card">
+              <div class="project-img-wrapper">
+                  <div class="project-img-placeholder" style="background: linear-gradient(135deg, #2d3748, #1a202c);">
+                      <span style="color: rgba(255,255,255,0.2); font-weight: bold; font-size: 1.5rem;">FastAPI CRUD</span>
+                  </div>
+              </div>
+              <div class="project-content">
+                  <h3>FastAPI CRUD Comments</h3>
+                  <p>
+                    API REST desarrollada con FastAPI para la gestión de comentarios. Incluye operaciones CRUD completas, validación de datos y estructura modular.
+                  </p>
+                  <div class="project-links">
+                      <a href="https://github.com/taekcidio/fastapi-crud-comments.git" target="_blank" rel="noopener noreferrer" class="project-icon-link" aria-label="Ver código en GitHub">
+                          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                      </a>
+                  </div>
+              </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="card project-card">
+              <div class="project-img-wrapper">
+                  <div class="project-img-placeholder" style="background: linear-gradient(135deg, #1a202c, #4a5568);">
+                      <span style="color: rgba(255,255,255,0.2); font-weight: bold; font-size: 1.5rem;">FerroERP</span>
+                  </div>
+              </div>
+              <div class="project-content">
+                  <h3>FerroERP MVP</h3>
+                  <p>
+                    Producto Mínimo Viable para un sistema de planificación de recursos empresariales enfocado en flujos y procesos de una ferretería.
+                  </p>
+                  <div class="project-links">
+                      <a href="https://github.com/taekcidio/ferroerp-mvp.git" target="_blank" rel="noopener noreferrer" class="project-icon-link" aria-label="Ver código en GitHub">
+                          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                      </a>
+                  </div>
+              </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="card project-card">
+              <div class="project-img-wrapper">
+                  <div class="project-img-placeholder" style="background: linear-gradient(135deg, #111827, #374151);">
+                      <span style="color: rgba(255,255,255,0.2); font-weight: bold; font-size: 1.5rem;">Productos API</span>
+                  </div>
+              </div>
+              <div class="project-content">
+                  <h3>Productos API</h3>
+                  <p>
+                    Desarrollo colaborativo de una API para la gestión del inventario de productos. Ejercicio práctico sobre backend y estructuración.
+                  </p>
+                  <div class="project-links">
+                      <a href="https://github.com/Jairo-EB/productos-api.git" target="_blank" rel="noopener noreferrer" class="project-icon-link" aria-label="Ver código en GitHub">
+                          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                      </a>
+                  </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Certificaciones -->
+      <section id="certificaciones" class="certs">
+        <div class="container">
+          <h2 class="section-title">Certificaciones <span>y Logros</span></h2>
+          <div class="projects-grid">
+            <!-- Cert 1 -->
+            <div class="card project-card">
+              <div class="project-img-wrapper" style="height: 180px;">
+                  <div class="project-img-placeholder" style="background: linear-gradient(135deg, #0d1b2a, #1b263b); padding: 1rem; text-align: center; display: flex; align-items: center; justify-content: center; height: 100%;">
+                      <span style="color: rgba(255,255,255,0.2); font-weight: bold; font-size: 1.5rem; letter-spacing: 2px;">CCNA</span>
+                  </div>
+              </div>
+              <div class="project-content">
+                  <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; line-height: 1.3;">CCNA: Introduction to Networks</h3>
+                  <p style="margin-bottom: var(--sp-sm); font-size: 0.95rem;"><strong>Cisco</strong><br/><span style="color: var(--accent-cyan);">nov. 2024</span></p>
+                  <div class="project-links" style="margin-top: auto;">
+                      <a href="https://www.credly.com/badges/08960a6e-6bdb-4ae2-9988-4a5c33eaf08b/public_url" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: 100%; text-align: center; padding: 10px;" aria-label="Ver insignia de CCNA: Introduction to Networks">Ver Insignia</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Cert 2 -->
+            <div class="card project-card">
+              <div class="project-img-wrapper" style="height: 180px;">
+                  <div class="project-img-placeholder" style="background: linear-gradient(135deg, #0d1b2a, #1b263b); padding: 1rem; text-align: center; display: flex; align-items: center; justify-content: center; height: 100%;">
+                      <span style="color: rgba(255,255,255,0.2); font-weight: bold; font-size: 1.5rem; letter-spacing: 2px;">CCNA</span>
+                  </div>
+              </div>
+              <div class="project-content">
+                  <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; line-height: 1.3;">CCNA: Switching, Routing, and Wireless Essentials</h3>
+                  <p style="margin-bottom: var(--sp-sm); font-size: 0.95rem;"><strong>Cisco</strong><br/><span style="color: var(--accent-cyan);">nov. 2025</span></p>
+                  <div class="project-links" style="margin-top: auto;">
+                      <a href="https://www.credly.com/badges/de10f4cd-a342-4c1d-93ef-29860d09749a/public_url" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: 100%; text-align: center; padding: 10px;" aria-label="Ver insignia de CCNA: Switching, Routing, and Wireless Essentials">Ver Insignia</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Cert 3 -->
+            <div class="card project-card">
+              <div class="project-img-wrapper" style="height: 180px;">
+                  <div class="project-img-placeholder" style="background: linear-gradient(135deg, #1f2937, #374151); padding: 1rem; text-align: center; display: flex; align-items: center; justify-content: center; height: 100%;">
+                      <span style="color: rgba(255,255,255,0.2); font-weight: bold; font-size: 1.5rem; letter-spacing: 2px;">IBM DESIGN</span>
+                  </div>
+              </div>
+              <div class="project-content">
+                  <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; line-height: 1.3;">Enterprise Design Thinking Practitioner</h3>
+                  <p style="margin-bottom: var(--sp-sm); font-size: 0.95rem;"><strong>IBM</strong><br/><span style="color: var(--accent-cyan);">feb. 2026</span></p>
+                  <div class="project-links" style="margin-top: auto;">
+                      <a href="https://www.credly.com/badges/16175ccd-ce49-408e-b822-91309335f050/public_url" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: 100%; text-align: center; padding: 10px;" aria-label="Ver insignia de Enterprise Design Thinking Practitioner">Ver Insignia</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Cert 4 -->
+            <div class="card project-card">
+              <div class="project-img-wrapper" style="height: 180px;">
+                  <div class="project-img-placeholder" style="background: linear-gradient(135deg, #0d1b2a, #1b263b); padding: 1rem; text-align: center; display: flex; align-items: center; justify-content: center; height: 100%;">
+                      <span style="color: rgba(255,255,255,0.2); font-weight: bold; font-size: 1.5rem; letter-spacing: 2px;">CYBERSEC</span>
+                  </div>
+              </div>
+              <div class="project-content">
+                  <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; line-height: 1.3;">Introduction to Cybersecurity</h3>
+                  <p style="margin-bottom: var(--sp-sm); font-size: 0.95rem;"><strong>Cisco</strong><br/><span style="color: var(--accent-cyan);">nov. 2024</span></p>
+                  <div class="project-links" style="margin-top: auto;">
+                      <a href="https://www.credly.com/badges/9ed0cb4e-56e2-4925-9b4b-cdce43a95d6b/public_url" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: 100%; text-align: center; padding: 10px;" aria-label="Ver insignia de Introduction to Cybersecurity">Ver Insignia</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Cert 5 -->
+            <div class="card project-card">
+              <div class="project-img-wrapper" style="height: 180px;">
+                  <div class="project-img-placeholder" style="background: linear-gradient(135deg, #0d1b2a, #1b263b); padding: 1rem; text-align: center; display: flex; align-items: center; justify-content: center; height: 100%;">
+                      <span style="color: rgba(255,255,255,0.2); font-weight: bold; font-size: 1.5rem; letter-spacing: 2px;">LINUX</span>
+                  </div>
+              </div>
+              <div class="project-content">
+                  <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; line-height: 1.3;">Linux Unhatched</h3>
+                  <p style="margin-bottom: var(--sp-sm); font-size: 0.95rem;"><strong>Cisco</strong><br/><span style="color: var(--accent-cyan);">feb. 2026</span></p>
+                  <div class="project-links" style="margin-top: auto;">
+                      <a href="https://www.credly.com/badges/4fe5e9e6-fb73-4519-9757-806c0cb75535/public_url" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: 100%; text-align: center; padding: 10px;" aria-label="Ver insignia de Linux Unhatched">Ver Insignia</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Cert 6 -->
+            <div class="card project-card">
+              <div class="project-img-wrapper" style="height: 180px;">
+                  <div class="project-img-placeholder" style="background: linear-gradient(135deg, #0d1b2a, #1b263b); padding: 1rem; text-align: center; display: flex; align-items: center; justify-content: center; height: 100%;">
+                      <span style="color: rgba(255,255,255,0.2); font-weight: bold; font-size: 1.5rem; letter-spacing: 2px;">PYTHON 1</span>
+                  </div>
+              </div>
+              <div class="project-content">
+                  <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; line-height: 1.3;">Python Essentials 1</h3>
+                  <p style="margin-bottom: var(--sp-sm); font-size: 0.95rem;"><strong>Cisco</strong><br/><span style="color: var(--accent-cyan);">may. 2025</span></p>
+                  <div class="project-links" style="margin-top: auto;">
+                      <a href="https://www.credly.com/badges/bf796229-be94-4f31-8bff-1be4880a9015/public_url" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: 100%; text-align: center; padding: 10px;" aria-label="Ver insignia de Python Essentials 1">Ver Insignia</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Cert 7 -->
+            <div class="card project-card">
+              <div class="project-img-wrapper" style="height: 180px;">
+                  <div class="project-img-placeholder" style="background: linear-gradient(135deg, #0d1b2a, #1b263b); padding: 1rem; text-align: center; display: flex; align-items: center; justify-content: center; height: 100%;">
+                      <span style="color: rgba(255,255,255,0.2); font-weight: bold; font-size: 1.5rem; letter-spacing: 2px;">PYTHON 2</span>
+                  </div>
+              </div>
+              <div class="project-content">
+                  <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; line-height: 1.3;">Python Essentials 2</h3>
+                  <p style="margin-bottom: var(--sp-sm); font-size: 0.95rem;"><strong>Cisco</strong><br/><span style="color: var(--accent-cyan);">may. 2024</span></p>
+                  <div class="project-links" style="margin-top: auto;">
+                      <a href="https://www.credly.com/badges/3c3b91e4-ceb5-499d-8bc9-94ebb9ad6c61/public_url" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: 100%; text-align: center; padding: 10px;" aria-label="Ver insignia de Python Essentials 2">Ver Insignia</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Cert 8 -->
+            <div class="card project-card">
+              <div class="project-img-wrapper" style="height: 180px;">
+                  <div class="project-img-placeholder" style="background: linear-gradient(135deg, #0f172a, #1e293b); padding: 1rem; text-align: center; display: flex; align-items: center; justify-content: center; height: 100%;">
+                      <span style="color: rgba(255,255,255,0.2); font-weight: bold; font-size: 1.5rem; letter-spacing: 2px;">META FRNT</span>
+                  </div>
+              </div>
+              <div class="project-content">
+                  <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; line-height: 1.3;">Meta Front-End Developer</h3>
+                  <p style="margin-bottom: var(--sp-sm); font-size: 0.95rem;"><strong>Meta</strong><br/><span style="color: var(--accent-cyan);">oct. 2025</span><br/><span style="font-size:0.8rem; color:var(--text-muted);">ID: KLSTCZSIO3KO</span></p>
+                  <div class="project-links" style="margin-top: auto;">
+                      <a href="https://coursera.org/share/51b276a32fb693976272409b742da6b4" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: 100%; text-align: center; padding: 10px;" aria-label="Ver certificado de Meta Front-End Developer">Ver Certificado</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Cert 9 -->
+            <div class="card project-card">
+              <div class="project-img-wrapper" style="height: 180px;">
+                  <div class="project-img-placeholder" style="background: linear-gradient(135deg, #0f172a, #1e293b); padding: 1rem; text-align: center; display: flex; align-items: center; justify-content: center; height: 100%;">
+                      <span style="color: rgba(255,255,255,0.2); font-weight: bold; font-size: 1.5rem; letter-spacing: 2px;">CODING</span>
+                  </div>
+              </div>
+              <div class="project-content">
+                  <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; line-height: 1.3;">Coding Interview Preparation</h3>
+                  <p style="margin-bottom: var(--sp-sm); font-size: 0.95rem;"><strong>Meta</strong><br/><span style="color: var(--accent-cyan);">oct. 2025</span><br/><span style="font-size:0.8rem; color:var(--text-muted);">ID: P2RBZPI3ASXA</span></p>
+                  <div class="project-links" style="margin-top: auto;">
+                      <a href="https://coursera.org/share/017ac36e607efcf6c295458d3491069a" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: 100%; text-align: center; padding: 10px;" aria-label="Ver certificado de Coding Interview Preparation">Ver Certificado</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Cert 10 -->
+            <div class="card project-card">
+              <div class="project-img-wrapper" style="height: 180px;">
+                  <div class="project-img-placeholder" style="background: linear-gradient(135deg, #0f172a, #1e293b); padding: 1rem; text-align: center; display: flex; align-items: center; justify-content: center; height: 100%;">
+                      <span style="color: rgba(255,255,255,0.2); font-weight: bold; font-size: 1.5rem; letter-spacing: 2px;">CAPSTONE</span>
+                  </div>
+              </div>
+              <div class="project-content">
+                  <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; line-height: 1.3;">Front-End Developer Capstone</h3>
+                  <p style="margin-bottom: var(--sp-sm); font-size: 0.95rem;"><strong>Meta</strong><br/><span style="color: var(--accent-cyan);">oct. 2025</span><br/><span style="font-size:0.8rem; color:var(--text-muted);">ID: LCX2NQUQYP7X</span></p>
+                  <div class="project-links" style="margin-top: auto;">
+                      <a href="https://coursera.org/share/3f9b442e20eed30f094f9ecac8e9a97a" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: 100%; text-align: center; padding: 10px;" aria-label="Ver certificado de Front-End Developer Capstone">Ver Certificado</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Cert 11 -->
+            <div class="card project-card">
+              <div class="project-img-wrapper" style="height: 180px;">
+                  <div class="project-img-placeholder" style="background: linear-gradient(135deg, #0f172a, #1e293b); padding: 1rem; text-align: center; display: flex; align-items: center; justify-content: center; height: 100%;">
+                      <span style="color: rgba(255,255,255,0.2); font-weight: bold; font-size: 1.5rem; letter-spacing: 2px;">UX/UI</span>
+                  </div>
+              </div>
+              <div class="project-content">
+                  <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; line-height: 1.3;">Principles of UX/UI Design</h3>
+                  <p style="margin-bottom: var(--sp-sm); font-size: 0.95rem;"><strong>Meta</strong><br/><span style="color: var(--accent-cyan);">oct. 2025</span><br/><span style="font-size:0.8rem; color:var(--text-muted);">ID: SOQ5DDAYYV63</span></p>
+                  <div class="project-links" style="margin-top: auto;">
+                      <a href="https://coursera.org/share/657abeb169c885ad35b5709db963feea" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: 100%; text-align: center; padding: 10px;" aria-label="Ver certificado de Principles of UX/UI Design">Ver Certificado</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Cert 12 -->
+            <div class="card project-card">
+              <div class="project-img-wrapper" style="height: 180px;">
+                  <div class="project-img-placeholder" style="background: linear-gradient(135deg, #0f172a, #1e293b); padding: 1rem; text-align: center; display: flex; align-items: center; justify-content: center; height: 100%;">
+                      <span style="color: rgba(255,255,255,0.2); font-weight: bold; font-size: 1.5rem; letter-spacing: 2px;">REACT</span>
+                  </div>
+              </div>
+              <div class="project-content">
+                  <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; line-height: 1.3;">Advanced React</h3>
+                  <p style="margin-bottom: var(--sp-sm); font-size: 0.95rem;"><strong>Meta</strong><br/><span style="color: var(--accent-cyan);">oct. 2025</span><br/><span style="font-size:0.8rem; color:var(--text-muted);">ID: SW9TRC2JE6TC</span></p>
+                  <div class="project-links" style="margin-top: auto;">
+                      <a href="https://coursera.org/share/5dfa0dd44db3eca876bbeadf7626a26a" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: 100%; text-align: center; padding: 10px;" aria-label="Ver certificado de Advanced React">Ver Certificado</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Cert 13 -->
+            <div class="card project-card">
+              <div class="project-img-wrapper" style="height: 180px;">
+                  <div class="project-img-placeholder" style="background: linear-gradient(135deg, #0f172a, #1e293b); padding: 1rem; text-align: center; display: flex; align-items: center; justify-content: center; height: 100%;">
+                      <span style="color: rgba(255,255,255,0.2); font-weight: bold; font-size: 1.5rem; letter-spacing: 2px;">REACT</span>
+                  </div>
+              </div>
+              <div class="project-content">
+                  <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; line-height: 1.3;">React Basics</h3>
+                  <p style="margin-bottom: var(--sp-sm); font-size: 0.95rem;"><strong>Meta</strong><br/><span style="color: var(--accent-cyan);">oct. 2025</span><br/><span style="font-size:0.8rem; color:var(--text-muted);">ID: FRIO48J1270U</span></p>
+                  <div class="project-links" style="margin-top: auto;">
+                      <a href="https://coursera.org/share/e2f9fcb659b3e6efe88d76fbc8d49f4a" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: 100%; text-align: center; padding: 10px;" aria-label="Ver certificado de React Basics">Ver Certificado</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Cert 14 -->
+            <div class="card project-card">
+              <div class="project-img-wrapper" style="height: 180px;">
+                  <div class="project-img-placeholder" style="background: linear-gradient(135deg, #0f172a, #1e293b); padding: 1rem; text-align: center; display: flex; align-items: center; justify-content: center; height: 100%;">
+                      <span style="color: rgba(255,255,255,0.2); font-weight: bold; font-size: 1.5rem; letter-spacing: 2px;">HTML/CSS</span>
+                  </div>
+              </div>
+              <div class="project-content">
+                  <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; line-height: 1.3;">HTML and CSS in depth</h3>
+                  <p style="margin-bottom: var(--sp-sm); font-size: 0.95rem;"><strong>Meta</strong><br/><span style="color: var(--accent-cyan);">oct. 2025</span><br/><span style="font-size:0.8rem; color:var(--text-muted);">ID: WMVI2JHIFHOU</span></p>
+                  <div class="project-links" style="margin-top: auto;">
+                      <a href="https://coursera.org/share/0ce8897ef20924be4968f0486d277dad" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: 100%; text-align: center; padding: 10px;" aria-label="Ver certificado de HTML and CSS in depth">Ver Certificado</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Cert 15 -->
+            <div class="card project-card">
+              <div class="project-img-wrapper" style="height: 180px;">
+                  <div class="project-img-placeholder" style="background: linear-gradient(135deg, #0f172a, #1e293b); padding: 1rem; text-align: center; display: flex; align-items: center; justify-content: center; height: 100%;">
+                      <span style="color: rgba(255,255,255,0.2); font-weight: bold; font-size: 1.5rem; letter-spacing: 2px;">GIT</span>
+                  </div>
+              </div>
+              <div class="project-content">
+                  <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; line-height: 1.3;">Version Control</h3>
+                  <p style="margin-bottom: var(--sp-sm); font-size: 0.95rem;"><strong>Meta</strong><br/><span style="color: var(--accent-cyan);">oct. 2025</span><br/><span style="font-size:0.8rem; color:var(--text-muted);">ID: HHIPE7T96AU6</span></p>
+                  <div class="project-links" style="margin-top: auto;">
+                      <a href="https://coursera.org/share/f9f25324219dfe82432c10c6e967cd5a" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: 100%; text-align: center; padding: 10px;" aria-label="Ver certificado de Version Control">Ver Certificado</a>
+                  </div>
+              </div>
+            </div>
+            <!-- Cert 16 -->
+            <div class="card project-card">
+              <div class="project-img-wrapper" style="height: 180px;">
+                  <div class="project-img-placeholder" style="background: linear-gradient(135deg, #0f172a, #1e293b); padding: 1rem; text-align: center; display: flex; align-items: center; justify-content: center; height: 100%;">
+                      <span style="color: rgba(255,255,255,0.2); font-weight: bold; font-size: 1.5rem; letter-spacing: 2px;">JS</span>
+                  </div>
+              </div>
+              <div class="project-content">
+                  <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; line-height: 1.3;">Programming with JavaScript</h3>
+                  <p style="margin-bottom: var(--sp-sm); font-size: 0.95rem;"><strong>Meta</strong><br/><span style="color: var(--accent-cyan);">oct. 2025</span><br/><span style="font-size:0.8rem; color:var(--text-muted);">ID: CRJ8W4PINRPY</span></p>
+                  <div class="project-links" style="margin-top: auto;">
+                      <a href="https://coursera.org/share/7d79f81dc984d124c524d4259f3927a1" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: 100%; text-align: center; padding: 10px;" aria-label="Ver certificado de Programming with JavaScript">Ver Certificado</a>
+                  </div>
+              </div>
+            </div>
+            
+            <!-- Cert 17 -->
+            <div class="card project-card">
+              <div class="project-img-wrapper" style="height: 180px;">
+                  <div class="project-img-placeholder" style="background: linear-gradient(135deg, #0f172a, #1e293b); padding: 1rem; text-align: center; display: flex; align-items: center; justify-content: center; height: 100%;">
+                      <span style="color: rgba(255,255,255,0.2); font-weight: bold; font-size: 1.5rem; letter-spacing: 2px;">INTRO FRNT</span>
+                  </div>
+              </div>
+              <div class="project-content">
+                  <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; line-height: 1.3;">Introduction to Front-End Development</h3>
+                  <p style="margin-bottom: var(--sp-sm); font-size: 0.95rem;"><strong>Meta</strong><br/><span style="color: var(--accent-cyan);">oct. 2025</span><br/><span style="font-size:0.8rem; color:var(--text-muted);">---</span></p>
+                  <div class="project-links" style="margin-top: auto;">
+                      <a href="https://coursera.org/share/a28d049be537111b882ee80e85919b08" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: 100%; text-align: center; padding: 10px;" aria-label="Ver certificado de Introduction to Front-End Development">Ver Certificado</a>
+                  </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Contacto -->
+      <section id="contacto" class="contact">
+        <div class="container">
+          <h2 class="section-title"><span>Contacta</span> Conmigo</h2>
+          <div class="contact-grid">
+            <div class="contact-info card">
+              <h3>Información de Contacto</h3>
+              <p></p>
+              <ul class="contact-details">
+                <li><span></span> Funza, Cundinamarca, Colombia</li>
+                <li>
+                  <span></span>
+                  <a href="tel:+573115581390" translate="no">311 558 1390</a>
+                </li>
+                <li>
+                  <span></span>
+                  <a href="mailto:laura.lvemm@gmail.com"
+                    >laura.lvemm@gmail.com</a
+                  >
+                </li>
+              </ul>
+              <div class="social-links">
+                <a
+                  href="https://www.linkedin.com/in/laura-valeria-espejo-mantilla-236597355"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-secondary"
+                  aria-label="Perfil de LinkedIn"
+                  >LinkedIn</a
+                >
+                <a
+                  href="https://github.com/taekcidio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-secondary"
+                  aria-label="Perfil de GitHub"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+            <div class="contact-form-wrapper card card-glow">
+              <form
+                class="contact-form"
+                action="#"
+                method="POST"
+                onsubmit="event.preventDefault()"
+              >
+                <div class="form-group">
+                  <label for="name">Nombre</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    placeholder="Tu nombre"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    placeholder="tu@email.com"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="message">Mensaje</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    required
+                    placeholder="Escribe tu mensaje aquí..."
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                  Enviar Mensaje
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          &copy; 2026 Laura Valeria Espejo Mantilla. Todos los derechos
+          reservados.
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/ui.js"></script>
+  </body>
+</html>

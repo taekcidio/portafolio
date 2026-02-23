@@ -1,0 +1,147 @@
+/* Responsive Styles */
+
+/* Base is Desktop for some layouts, but typically we want mobile first.
+   Given the structure, we use media queries to adjust sizes downwards */
+
+@media screen and (max-width: 991px) {
+  :root {
+    --sp-xxl: 5rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+
+  /* Index specific layouts adjustments for Tablet */
+  .hero-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  
+  .hero-cta {
+    justify-content: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+  }
+  
+  .hero .subcopy {
+    margin: 0 auto var(--sp-md);
+  }
+  
+  .hero-avatar-card {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .about-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  
+  .tools-list {
+    justify-content: center;
+  }
+  
+  .skills-grid, .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Mobile & Tablet Portrait */
+@media screen and (max-width: 768px) {
+  :root {
+    --sp-xxl: 4rem;
+    --sp-lg: 2rem;
+  }
+
+  /* Hamburger Menu */
+  .burger-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1001; /* Above nav menu */
+  }
+
+  .burger-btn span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: var(--text-main);
+    border-radius: 2px;
+    transition: all var(--trans-normal);
+  }
+
+  .burger-btn.active span:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+  }
+
+  .burger-btn.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .burger-btn.active span:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+  }
+
+  /* Navigation Drawer */
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%; /* Full screen overlay or 80% drawer */
+    max-width: 400px;
+    height: 100vh;
+    background-color: rgba(19, 22, 28, 0.98); /* Less transparent on mobile */
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-left: 1px solid var(--bg-tertiary);
+    transition: right var(--trans-normal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -10px 0 30px rgba(0,0,0,0.5);
+  }
+
+  .nav-menu.active {
+    right: 0;
+  }
+
+  .nav-menu ul {
+    flex-direction: column;
+    gap: var(--sp-lg);
+    text-align: center;
+  }
+
+  .nav-link {
+    font-size: 1.5rem;
+  }
+
+  /* Index specific adjustmenets for Mobile */
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+  
+  .soft-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Desktop styles hiding mobile elements */
+@media screen and (min-width: 769px) {
+  .burger-btn {
+    display: none;
+  }
+  
+  .nav-menu {
+    display: block;
+  }
+}

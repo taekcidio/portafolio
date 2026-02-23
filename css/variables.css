@@ -1,0 +1,69 @@
+:root {
+  /* Colors */
+  --bg-primary: #0a0c10;
+  --bg-secondary: #13161c;
+  --bg-tertiary: #1c212a;
+
+  --text-main: #f0f2f5;
+  --text-muted: #8b949e;
+
+  --accent-cyan: #00f0ff;
+  --accent-blue: #00aaeb;
+  --accent-purple: #8a2be2;
+  --accent-orange: #ff5e00;
+
+  /* Horario colors */
+  --subj-1: #ff5f8e; /* Sistemas Operativos */
+  --subj-2: #3a86ff; /* Ingenieria Web 2 */
+  --subj-3: #06d6a0; /* Estandares */
+  --subj-4: #8338ec; /* Matematicas Esp */
+  --subj-5: #ffbe0b; /* Optimizacion Lineal */
+  --subj-6: #fb5607; /* Diseño Interfaces */
+  --subj-7: #ff006e; /* Metodos Numericos */
+  --subj-8: #38b000; /* Ingles */
+  --subj-hueco: #343a40; /* Hueco */
+
+  /* Organigrama colors */
+  --org-academica: #3a86ff;
+  --org-investigacion: #8338ec;
+  --org-tutoria: #00f0ff;
+  --org-admin: #ff5e00;
+  --org-personal: #06d6a0;
+  --org-hueco: #343a40;
+
+  /* Typography */
+  --font-base: "Inter", sans-serif;
+  --font-heading: "Outfit", "Inter", sans-serif;
+
+  /* Spacing */
+  --sp-xs: 0.5rem;
+  --sp-sm: 1rem;
+  --sp-md: 2rem;
+  --sp-lg: 3rem;
+  --sp-xl: 5rem;
+  --sp-xxl: 8rem;
+
+  /* Borders */
+  --rad-sm: 8px;
+  --rad-md: 12px;
+  --rad-lg: 24px;
+  --rad-pill: 50px;
+
+  /* Shadows & Glow */
+  --shadow-sm: 0 4px 6px rgba(0, 0, 0, 0.2);
+  --shadow-card: 0 10px 25px rgba(0, 0, 0, 0.5);
+  --glow-cyan: 0 0 15px rgba(0, 240, 255, 0.4);
+  --glow-purple: 0 0 15px rgba(138, 43, 226, 0.4);
+  --glow-orange: 0 0 15px rgba(255, 94, 0, 0.4);
+  --glow-card: 0 0 30px rgba(0, 170, 235, 0.15);
+
+  /* Layout Dimensions */
+  --header-height: 80px;
+  --container-width: 1200px;
+  --container-px: 5%;
+
+  /* Transitions */
+  --trans-fast: 0.2s ease-in-out;
+  --trans-normal: 0.3s ease-in-out;
+  --trans-slow: 0.5s ease;
+}
